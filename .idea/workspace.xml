@@ -2,30 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="175432d6-2d9a-44d5-89e2-eca8496dd468" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BatchJobsProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/AverageRating.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/FilterMovies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ml-latest-small/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ml-latest-small/links.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ml-latest-small/movies.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ml-latest-small/ratings.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ml-latest-small/tags.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/AverageRating$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/AverageRating$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/AverageRating.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/FilterMovies$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/FilterMovies.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Movie.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ml-latest-small/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ml-latest-small/links.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ml-latest-small/movies.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ml-latest-small/ratings.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ml-latest-small/tags.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Top10Movies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ml-latest-small/movies.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/ml-latest-small/movies.csv" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,11 +18,12 @@
     <session id="1958831949">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.69" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -51,14 +31,15 @@
           <entry key="Filter" value="1" />
           <entry key="FilterMovies" value="3" />
           <entry key="class" value="2" />
-          <entry key="csv" value="2" />
-          <entry key="java" value="3" />
+          <entry key="csv" value="6" />
+          <entry key="java" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="5" />
-          <entry key="JAVA" value="4" />
+          <entry key="CSV" value="4" />
+          <entry key="JAVA" value="6" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
@@ -66,12 +47,12 @@
         <counts>
           <entry key="Filter" value="2" />
           <entry key="dummy" value="6" />
-          <entry key="java" value="507" />
+          <entry key="java" value="3285" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="509" />
+          <entry key="JAVA" value="3287" />
           <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
@@ -80,33 +61,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/FilterMovies.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
+            <state relative-caret-position="17">
               <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="28" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1003#1346#0" expanded="true" />
-                <element signature="e#1345#1346#0" expanded="true" />
-                <element signature="e#1711#1712#0" expanded="true" />
-                <element signature="e#1792#1793#0" expanded="true" />
+                <element signature="e#830#1173#0" expanded="true" />
+                <element signature="e#1172#1173#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/AverageRating.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="48" column="51" lean-forward="true" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
+            <state relative-caret-position="-29">
+              <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1191#1735#0" expanded="true" />
@@ -120,12 +92,32 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ml-latest-small/movies.csv">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="37859">
+              <caret line="2227" column="4" selection-start-line="2227" selection-end-line="2227" selection-end-column="4" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ml-latest-small/ratings.csv">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="csv-text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/Top10Movies.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="95" column="52" selection-start-line="95" selection-start-column="52" selection-end-line="95" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1105#1885#0" expanded="true" />
+                <element signature="e#1884#1885#0" expanded="true" />
+                <element signature="e#3991#4380#0" expanded="true" />
+                <element signature="e#4379#4380#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -141,6 +133,8 @@
     <findStrings>
       <find>AverageRating</find>
       <find>ratings</find>
+      <find>318</find>
+      <find>2959</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -154,11 +148,13 @@
         <option value="$PROJECT_DIR$/src/another.java" />
         <option value="$PROJECT_DIR$/src/main/FilterMovies.java" />
         <option value="$PROJECT_DIR$/src/main/AverageRating.java" />
+        <option value="$PROJECT_DIR$/src/ml-latest-small/movies.csv" />
+        <option value="$PROJECT_DIR$/src/main/Top10Movies.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="49" />
+    <option name="x" value="707" />
     <option name="y" value="25" />
     <option name="width" value="659" />
     <option name="height" value="743" />
@@ -202,7 +198,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542311624550" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542477426747" />
     <property name="last_opened_file_path" value="$USER_HOME$/flink-1.6.1/lib/slf4j-log4j12-1.7.7.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -226,7 +222,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AverageRating">
+  <component name="RunManager" selected="Application.Top10Movies">
     <configuration name="AverageRating" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AverageRating" />
       <module name="BatchJobsProject" />
@@ -254,6 +250,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Top10Movies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Top10Movies" />
+      <module name="BatchJobsProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="another" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="another" />
       <module name="BatchJobsProject" />
@@ -266,9 +269,11 @@
       <item itemvalue="Application.another" />
       <item itemvalue="Application.FilterMovies (1)" />
       <item itemvalue="Application.AverageRating" />
+      <item itemvalue="Application.Top10Movies" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Top10Movies" />
         <item itemvalue="Application.AverageRating" />
         <item itemvalue="Application.FilterMovies (1)" />
         <item itemvalue="Application.another" />
@@ -291,7 +296,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="25" width="1317" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25727773" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -302,7 +306,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.05872757" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3115824" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -310,7 +314,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.23902439" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.23817292" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -328,11 +332,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/Filter" />
     <entry file="file://$PROJECT_DIR$/src/main/FilterMovies" />
     <entry file="file://$PROJECT_DIR$/src/another.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8" />
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/util/function/Function.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -347,36 +346,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ml-latest-small/ratings.csv">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/FilterMovies.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
+        <state relative-caret-position="17">
           <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="28" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1003#1346#0" expanded="true" />
-            <element signature="e#1345#1346#0" expanded="true" />
-            <element signature="e#1711#1712#0" expanded="true" />
-            <element signature="e#1792#1793#0" expanded="true" />
+            <element signature="e#830#1173#0" expanded="true" />
+            <element signature="e#1172#1173#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ml-latest-small/movies.csv">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="37859">
+          <caret line="2227" column="4" selection-start-line="2227" selection-end-line="2227" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ml-latest-small/ratings.csv">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-255" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/AverageRating.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="48" column="51" lean-forward="true" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
+        <state relative-caret-position="-29">
+          <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1191#1735#0" expanded="true" />
             <element signature="e#1734#1735#0" expanded="true" />
             <element signature="e#1794#2563#0" expanded="true" />
             <element signature="e#2562#2563#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/Top10Movies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="95" column="52" selection-start-line="95" selection-start-column="52" selection-end-line="95" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1105#1885#0" expanded="true" />
+            <element signature="e#1884#1885#0" expanded="true" />
+            <element signature="e#3991#4380#0" expanded="true" />
+            <element signature="e#4379#4380#0" expanded="true" />
           </folding>
         </state>
       </provider>
