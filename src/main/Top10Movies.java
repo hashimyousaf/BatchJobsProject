@@ -7,6 +7,7 @@ import org.apache.flink.api.java.DataSet;
 import org.apache.flink.api.java.ExecutionEnvironment;
 import org.apache.flink.api.java.tuple.Tuple2;
 import org.apache.flink.api.java.tuple.Tuple3;
+import org.apache.flink.api.java.utils.ParameterTool;
 import org.apache.flink.util.Collector;
 
 import java.util.Iterator;
@@ -19,7 +20,12 @@ public class Top10Movies {
     public static void main(String[] args) throws Exception {
         final ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
 
-        DataSet<Tuple2<Integer, Double>> sorted = env.readCsvFile("src/ml-latest-small/ratings.csv")
+        ParameterTool paramter = ParameterTool.fromArgs(args);
+        String input = paramter.getRequired("input");
+        String input2 = paramter.getRequired("input2");
+        String output = paramter.getRequired("output");
+        // passing path without prgogram args will take 'src/ml-latest-small/ratings.csv'
+        DataSet<Tuple2<Integer, Double>> sorted = env.readCsvFile(input)
                 .ignoreFirstLine()
                 .includeFields(false, true, true, false)
                 .types(Integer.class, Double.class)// movieId and rating
@@ -69,8 +75,8 @@ public class Top10Movies {
                         }
                     }
                 });
-
-        DataSet<Tuple2<Integer, String>> movies = env.readCsvFile("src/ml-latest-small/movies.csv")
+        // passing path without prgogram args will take 'src/ml-latest-small/movies.csv'
+        DataSet<Tuple2<Integer, String>> movies = env.readCsvFile(input2)
                 .ignoreFirstLine()
                 .includeFields(true, true, false)
                 .types(Integer.class, String.class); // movieId and title
@@ -93,10 +99,12 @@ public class Top10Movies {
                         Double ratingOfMovie = second.f1;
                         return new Tuple3<Integer, String, Double>(movieId, movieName, ratingOfMovie);
                     }
-                }).sortPartition(2, Order.DESCENDING);
+                });
         System.out.println("Here we go with our result of Top 10 rated Movies");
         System.out.println("====================================================================================");
-        result.print();
+        result.writeAsText(output);
+//        result.print();
+        env.execute();
     }
 }
 
